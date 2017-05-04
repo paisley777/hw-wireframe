@@ -28,7 +28,7 @@ body {
 	width: 495px;
 	height: 275px;
 	position: relative;
-	padding-top: 10px;
+	float: left;
 }
 
 .article-box {
@@ -41,7 +41,7 @@ body {
 	right: 10px;
 }
 
-.inner-box1 {
+.inner-box1  {
 	background-color: #ebebeb;
 	width: 435px;
 	height: 50px;
@@ -55,22 +55,23 @@ body {
 	width: 435px;
 	height: 50px;
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
 	right: 30px;
 	padding-top: 10px;
 }
 
 .aside-box {
 	background-color: #ebebeb;
-	width: 465px;
-	margin-left: 10px;
+	width: 445px;
+	height: 275px;
 	float: right;
 }
 
 .footer-box {
 	background-color: #ebebeb;
+	float: left;
 	margin-top: 20px;
-	clear: both;
+	width: 960px;
 	height: 75px;
 }
 
@@ -78,3 +79,6 @@ body {
     overflow: auto;
 }
 
+.widetop-pad {
+	padding-top: 30px;
+}
