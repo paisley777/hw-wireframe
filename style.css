@@ -43,6 +43,7 @@ body {
 
 .inner-box1  {
 	background-color: #ebebeb;
+	font-weight: bold;
 	width: 435px;
 	height: 50px;
 	position: absolute;
